@@ -1,6 +1,4 @@
-/*
-
-*/
+//  2016-02-25T16:55:43
 var app = {
     onDeviceReady : function () {
         app.showIt('info', 'deviceready');

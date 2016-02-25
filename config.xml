@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
   <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.bsdmasterindex.toast-test"
+    id          = "com.bsdmasterindex.pgbp-toast"
     version     = "1.0.0"
     versionCode = "100" > <!-- versionCode is optional and Android only -->
     <!-- Tool Set Version -->        
     <preference name='phonegap-version' value='cli-5.2.0' />
 
-    <name>Test</name>
-    <description>Test</description>
+    <name>PGBP Toast</name>
+    <description>PGBP Toast</description>
     <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">Jesse Monroy</author>
 
     <!-- Target Platforms -->
