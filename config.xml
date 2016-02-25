@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.bsdmasterindex.toast-test"
+    version     = "1.0.0"
+    versionCode = "100" > <!-- versionCode is optional and Android only -->
+    <!-- Tool Set Version -->        
+    <preference name='phonegap-version' value='cli-5.2.0' />
+
+    <name>Test</name>
+    <description>Test</description>
+    <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">Jesse Monroy</author>
+
+    <!-- Target Platforms -->
+    <platform name="android" />
+    <platform name="ios" />
+
+    <!-- App requested permission -->
+    <preference name="permissions" value="none"/>
+
+    <!-- PLUGINS * PLUGINS * PLUGINS -->
+    <plugin name="cordova-plugin-device"  source="npm" spec="1.0.1" />
+    <plugin name="cordova-plugin-x-toast" source="npm" spec="2.4.2" />
+
+  </widget>
