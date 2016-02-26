@@ -1,4 +1,6 @@
-//  2016-02-25T16:55:43
+/*
+    2016-02-25T16:55:43
+*/
 var app = {
     onDeviceReady : function () {
         app.showIt('info', 'deviceready');
@@ -31,7 +33,7 @@ var app = {
     showIt : function (id, msg) {
         document.getElementById(id).innerHTML = msg;
     },
-    pluginTest () {
+    pluginTest : function () {
         document.getElementById('shortTop').addEventListener('click', function() {
             window.plugins.toast.showShortTop('Hello there!', 
                 function(a){app.showIt('content', 'toast success: ' + a)}, 
@@ -49,7 +51,6 @@ var app = {
         });
     }
 };
-
 //
 //    Entry Point
 //
